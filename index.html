@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KanBan Board </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href = '/style.css'> 
+    
+
+</head>
+<body>
+
+    <!-- ToolBar -->
+ <header class = "toolbox-cont">
+    <div class="heading">
+        Kanban Board<br> <span id="gap">- by Anion </span>
+    </div>
+    <div class ="toolbox-priority-cont">
+        <div class = "color red"></div>
+        <div class = "color blue"></div>
+        <div class = "color green"></div>
+        <div class = "color purple"></div>
+    </div>
+    <div class ="action-btn-cont">
+        <div class="add-btn">
+            <i class="fa fa-plus largeicon"></i>
+        </div>
+        
+        <div class="remove-btn">
+            <i class="fa fa-trash largeicon"></i>
+        </div>
+        
+    </div>
+
+
+ </header>
+ 
+ 
+ <main class ="main-cont">
+    <!-- <div class="ticket_cont">
+        <div class="ticket-color"></div>
+        <div class="ticket-id">#eidut3</div>
+        <div class="ticket-area"> some task </div>
+    </div> -->
+    
+    
+ </main>
+    
+<div class="modal-cont">
+    <textarea class="textarea-cont" placeholder="Enter your task"></textarea>
+    <div class="priority-color-cont">
+        <div class = "color_modal red selected" currColor ="red"></div>
+        <div class = "color_modal blue" currColor ="blue"></div>
+        <div class = "color_modal green"currColor ="green"></div>
+        <div class = "color_modal purple"currColor ="purple"></div> 
+    </div>
+</div>
+    <!-- Add unique id Library  -->
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@5.0.2/dist/short-unique-id.min.js"></script>
+   <script src="script.js"> </script> 
+</body>
+</html>
