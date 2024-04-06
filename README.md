@@ -14,6 +14,8 @@ Inspired by Atlassian, I present to you a KanBan Board that you can use to organ
         * toolbar section
         * main section
 
+  <img src = "Modal.jpg">
+
 ## UI Components with:(HTML & CSS)
 * Toolbar 
     * color picker 
