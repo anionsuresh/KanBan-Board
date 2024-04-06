@@ -42,4 +42,4 @@ Inspired by Atlassian, I present to you a KanBan Board that you can use to organ
     * Automatic ID assignment to ticket
     * hide the popup
 * Make our ticket survive reload and browser/tab close
-<img src = "Kanban images/ezgif-7-ff9bc78d3f.mp4">
+<img src = "Kanban images/functions.jpg">
