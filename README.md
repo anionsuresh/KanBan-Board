@@ -1,18 +1,15 @@
 # KanBan-Board 
+ Click on the link below to check it out !
  https://anionsuresh.github.io/KanBan-Board/
 ## PROBLEM STATEMENT 
-Create a frontend only digital Kanban Board 
+Inspired by Atlassian, I present to you a KanBan Board that you can use to organize and keep track of all your important tasks. Built purely out of Vanilla JavaScript :)) 
 
 ## TECH STACK
 * HTML, CSS, JS 
 
-## SCOPE 
-* Frontend only (for now)
-
 
 ## Features 
 
-## MUST HAVE 
 * Whole application: 2 sections 
         * toolbar section
         * main section
@@ -27,9 +24,9 @@ Create a frontend only digital Kanban Board
     * color selection
 * Ticket 
     * header -> color ribbon 
-    * id 
+    * unique id for each ticket  
     * content
-    * lock button 
+    * lock button to lock your tickets  
 
  ## Functionalities (JS)
 * Ticket 
